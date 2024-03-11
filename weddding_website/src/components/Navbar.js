@@ -1,17 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Logo from "../assets/Logo.svg"
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <>
-      <nav className = "navbar">
-        <div className = "navbar-container">
-            <Link to = "/" className = "navbar-logo">
-                Home
-            </Link>
-        </div>
-      </nav>
-    </>
+    <div className="home-container">
+      <Navbar />
+    </div>
   )
 }
 
