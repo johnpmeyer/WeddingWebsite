@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Logo from "../Assets/logo-joke.jpg";
+import Logo from "../Assets/logo-joke2.jpg";
 
 
 function Navbar() {
@@ -26,7 +26,8 @@ function Navbar() {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="Bon Jovi Have a Nice Day Logo" />
+        {/* <img src={Logo} alt="Bon Jovi Have a Nice Day Logo" /> */}
+        <h1>Lindsay and John stylized logo</h1>
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
