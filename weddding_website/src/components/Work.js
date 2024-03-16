@@ -27,7 +27,7 @@ const Work = () => {
         <div className="work-section-wrapper">
             <div className="work-section-top">
                 <p className="primary-subheading">Work</p>
-                <p className="primary-subheading">How It Works</p>
+                <p className="primary-heading">How It Works</p>
                 <p className="primary-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
