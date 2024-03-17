@@ -1,25 +1,38 @@
 import React, {useState} from 'react';
 import Logo from "../Assets/logo-joke2.jpg";
-
+import { HiOutlineBars3 } from "react-icons/hi2";
+import List from "@mui/material/List";
+import { 
+  Box, 
+  Drawer, 
+  ListItem, 
+  ListItemButton, 
+  ListItemText 
+} from "@mui/material";
 
 function Navbar() {
 
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
-      text: "Home"
+      text: "Home", 
+      link: "/"
     }, 
     {
-      text: "Event Details"
+      text: "Event Details", 
+      link: "/"
     }, 
     {
-      text: "Things to Do / Where to Stay"
+      text: "Things to Do / Where to Stay", 
+      link: "/"
     }, 
     {
-      text: "Puzzles and Fun ;)"
+      text: "Puzzles and Fun ;)", 
+      link: "/"
     }, 
     {
-      text: "Comments"
+      text: "Comments", 
+      link: "/"
     }
   ]
 
@@ -36,6 +49,26 @@ function Navbar() {
         <a href="">Puzzles and Fun ;)</a>
         <a href="">Comments</a>
       </div>
+      <div className="navbar-menu-container">
+        <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
+      </div>
+      <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
+        <Box sx = {{width: 250}}
+        role="presentation"
+        onClick={() => setOpenMenu(false)}
+        onKeyDown={() => setOpenMenu(false)}
+        >
+          <List>
+            {menuOptions.map((item) => (
+              <ListItem key={item.text} disablePadding>
+                <ListItemButton component="a" href={item.link}>
+                  <ListItemText primary={item.text}></ListItemText>
+                </ListItemButton>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
+      </Drawer>
     </nav>
   )
 }

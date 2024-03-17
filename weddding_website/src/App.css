@@ -36,10 +36,29 @@
   .navbar-links-container a {
     margin-right: 3rem;
     text-decoration: none;
-    color: #D58Fc4;
+    color: #D58FC4;
     font-size: 1.1rem;
     font-weight: 600;
   }
   .nav-logo-container h1 {
     color: #D4AC26;
+  }
+
+  @media (max-width: 1000px) {
+    .navbar-links-container a {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .nav-logo-container {
+      max-width: 140px;
+    }
+    .navbar-links-container {
+      display: none;
+    }
+    .navbar-menu-container {
+      display: flex;
+    }
   }
