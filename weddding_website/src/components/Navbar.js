@@ -50,7 +50,7 @@ function Navbar() {
         <a href="">Comments</a>
       </div>
       <div className="navbar-menu-container">
-        <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
+        <HiOutlineBars3 onClick={() => setOpenMenu(true)} color='#D58FC4'/>
       </div>
       <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
         <Box sx = {{width: 250}}
@@ -62,7 +62,7 @@ function Navbar() {
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
                 <ListItemButton component="a" href={item.link}>
-                  <ListItemText primary={item.text}></ListItemText>
+                  <ListItemText primary={item.text} primaryTypographyProps={{color: '#D58FC4'}}></ListItemText>
                 </ListItemButton>
               </ListItem>
             ))}
