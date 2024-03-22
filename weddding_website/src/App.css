@@ -42,14 +42,13 @@
   }
   .nav-logo-container h1 {
     color: #D4AC26;
+    padding-left: 3em;
   }
 
   .home-banner-container {
     position: relative;
     display: flex;
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding: 3em;
   }
 
   .home-text-section {
@@ -57,12 +56,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .home-image-section {
     max-width: 600px;
     flex: 1;
+    margin-right:10em;
   }
 
   .primary-heading {
