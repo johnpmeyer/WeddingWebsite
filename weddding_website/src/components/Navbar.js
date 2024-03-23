@@ -45,10 +45,10 @@ function Navbar() {
       </div>
       <div className="navbar-links-container">
         <Link to="/">Home</Link>
-        <Link to="event-details">Event Details</Link>
-        <Link to="things-to-do">Things to Do / Where to Stay</Link>
-        <Link to="puzzles-fun">Puzzles and Fun ;)</Link>
-        <Link to="comments">Comments</Link>
+        <Link to="/event-details">Event Details</Link>
+        <Link to="/things-to-do">Things to Do / Where to Stay</Link>
+        <Link to="/puzzles-fun">Puzzles and Fun ;)</Link>
+        <Link to="/comments">Comments</Link>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} color='#D58FC4'/>
