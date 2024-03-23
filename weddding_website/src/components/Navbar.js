@@ -9,6 +9,7 @@ import {
   ListItemButton, 
   ListItemText 
 } from "@mui/material";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -43,11 +44,11 @@ function Navbar() {
         <h1>Lindsay and John stylized logo</h1>
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">Event Details</a>
-        <a href="">Things to Do / Where to Stay</a>
-        <a href="">Puzzles and Fun ;)</a>
-        <a href="">Comments</a>
+        <Link to="/">Home</Link>
+        <Link to="event-details">Event Details</Link>
+        <Link to="things-to-do">Things to Do / Where to Stay</Link>
+        <Link to="puzzles-fun">Puzzles and Fun ;)</Link>
+        <Link to="comments">Comments</Link>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} color='#D58FC4'/>
