@@ -65,6 +65,14 @@
     margin-right:10em;
   }
 
+  .event-details-main-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+  }
+
   .primary-heading {
     font-size: clamp(2rem, 5vw, 4rem);
     color: #D4AC26;
@@ -74,7 +82,7 @@
 
   .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
-    max-width: 500px;
+    max-width: 700px;
     color: #D4AC26;
   }
 
