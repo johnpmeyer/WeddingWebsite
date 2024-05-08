@@ -21,19 +21,19 @@ function Navbar() {
     }, 
     {
       text: "Event Details", 
-      link: "/"
+      link: "/event-details"
     }, 
     {
-      text: "Things to Do / Where to Stay", 
-      link: "/"
+      text: "Where to Stay / Things to Do", 
+      link: "/where-to-stay"
     }, 
     {
       text: "Puzzles and Fun ;)", 
-      link: "/"
+      link: "/puzzles-fun"
     }, 
     {
       text: "Comments", 
-      link: "/"
+      link: "/comments"
     }
   ]
 
@@ -46,12 +46,12 @@ function Navbar() {
       <div className="navbar-links-container">
         <Link to="/">Home</Link>
         <Link to="/event-details">Event Details</Link>
-        <Link to="/things-to-do">Things to Do / Where to Stay</Link>
+        <Link to="/where-to-stay">Where to Stay / Things to Do</Link>
         <Link to="/puzzles-fun">Puzzles and Fun ;)</Link>
         <Link to="/comments">Comments</Link>
       </div>
       <div className="navbar-menu-container">
-        <HiOutlineBars3 onClick={() => setOpenMenu(true)} color='#D58FC4'/>
+        <HiOutlineBars3 onClick={() => setOpenMenu(true)} color='#D58FC4' strokeWidth={"2"}/>
       </div>
       <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
         <Box sx = {{width: 250}}

@@ -42,7 +42,6 @@
   }
   .nav-logo-container h1 {
     color: #D4AC26;
-    padding-left: 3em;
   }
 
   .home-banner-container {
@@ -78,11 +77,13 @@
     color: #D4AC26;
     /* line-height: 5rem; */
     max-width: 600px;
+    text-align: center;
   }
 
   .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
     max-width: 700px;
+    text-align: center;
     color: #D4AC26;
   }
 
@@ -122,5 +123,9 @@
       width: 100%;
       max-width: 400px;
       margin-right: 0em;
+    }
+
+    .App {
+      max-width: 95vw;
     }
   }
