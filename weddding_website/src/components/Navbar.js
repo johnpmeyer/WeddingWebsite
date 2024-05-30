@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Logo from "../Assets/logo-joke2.jpg";
+import Logo from "../Assets/website_logo.png";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import List from "@mui/material/List";
 import { 
@@ -40,8 +40,9 @@ function Navbar() {
   return (
     <nav>
       <div className="nav-logo-container">
-        {/* <img src={Logo} alt="Bon Jovi Have a Nice Day Logo" /> */}
-        <h1>Lindsay and John stylized logo</h1>
+        <Link to="/">
+          {<img src={Logo} alt="Lindsay and John's website logo" />}
+        </Link>
       </div>
       <div className="navbar-links-container">
         <Link to="/">Home</Link>
