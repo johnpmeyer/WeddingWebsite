@@ -80,6 +80,11 @@
     padding-top: 3em;
   }
 
+  .where-to-stay-main-text-container iframe {
+    width: 50%;
+    height: 30em
+  }
+
   .primary-heading {
     font-size: clamp(2rem, 5vw, 4rem);
     color: #D4AC26;
@@ -99,6 +104,20 @@
     color: #D58FC4;
   }
 
+  .supporting-text {
+    font-size: clamp(0.75rem, 2.25vw, 1.125rem);
+    max-width: 700px;
+    text-align: left;
+    color: #D4AC26;
+  }
+
+  .supporting-list {
+      font-size: clamp(0.75rem, 2.25vw, 1.125rem);
+      padding-left: 2.5em;
+      max-width: 700px;
+      color: black;
+  }
+
   @media (max-width: 1000px) {
     .navbar-links-container a {
       margin-right: 1rem;
@@ -107,6 +126,11 @@
 
     .home-bannerImage-container {
         max-width: 600px;
+    }
+
+    .where-to-stay-main-text-container iframe {
+      width: 100%;
+      height: 20em
     }
   }
 
@@ -139,5 +163,10 @@
 
     .App {
       max-width: 95vw;
+    }
+
+    .where-to-stay-main-text-container iframe {
+      width: 100%;
+      height: 25em
     }
   }
