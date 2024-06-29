@@ -87,6 +87,10 @@
     color: #D4AC26;
   }
 
+  .primary-text a {
+    color: #D58FC4;
+  }
+
   @media (max-width: 1000px) {
     .navbar-links-container a {
       margin-right: 1rem;
