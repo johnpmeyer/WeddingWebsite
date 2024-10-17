@@ -27,8 +27,8 @@ const QuizForm = () => {
             <h2 className='primary-heading'>Quiz!</h2>
             <form className='puzzles-games-forms'>
               {/* Question 1 - Short answer */}
-              <div>
-                <label htmlFor="question1">1. What is the capital of France?  </label>
+              <div className = 'puzzles-games-question'>
+                <label htmlFor="question1">1. What is a movie Lindsay and John like a lot? It's also one of their cat's names.  </label>
                 <input
                   type="text"
                   id="question1"
@@ -40,72 +40,72 @@ const QuizForm = () => {
               </div>
 
               {/* Question 2 - Multiple choice */}
-              <div>
-                <label>2. Which of these is a programming language?</label>
+              <div className = 'puzzles-games-question'>
+                <label>2. What is something Lindsay loves?</label>
                 <div className = 'puzzles-games-input'>
                   <input
                     type="radio"
-                    id="python"
+                    id="People who are selfish"
                     name="question2"
-                    value="Python"
+                    value="People who are selfish"
                     onChange={handleChange}
                   />
-                  <label htmlFor="python">Python</label>
+                  <label htmlFor="python">  People who are selfish</label>
                 </div>
                 <div className = 'puzzles-games-input'>
                   <input
                     type="radio"
-                    id="html"
+                    id="Cold Weather"
                     name="question2"
-                    value="HTML"
+                    value="Cold Weather"
                     onChange={handleChange}
                   />
-                  <label htmlFor="html">HTML</label>
+                  <label htmlFor="html">  Cold Weather</label>
                 </div>
                 <div className = 'puzzles-games-input'>
                   <input
                     type="radio"
-                    id="css"
+                    id="Blankets and warm things"
                     name="question2"
-                    value="CSS"
+                    value="Blankets and warm things"
                     onChange={handleChange}
                   />
-                  <label htmlFor="css">CSS</label>
+                  <label htmlFor="css">  Blankets and warm things</label>
                 </div>
               </div>
 
               {/* Question 3 - Checkbox */}
-              <div>
-                <label>3. Select the planets in our solar system:</label>
+              <div className = 'puzzles-games-question'>
+                <label>3. Which musicians are good?</label>
                 <div className = 'puzzles-games-input'>
                   <input
                     type="checkbox"
-                    id="earth"
+                    id="Pitbull"
                     name="question3"
-                    value="Earth"
+                    value="Pitbull"
                     onChange={handleChange}
                   />
-                  <label htmlFor="earth">Earth</label>
+                  <label htmlFor="earth">  Pitbull</label>
                 </div>
                 <div className = 'puzzles-games-input'>
                   <input
                     type="checkbox"
-                    id="mars"
+                    id="Abba"
                     name="question3"
-                    value="Mars"
+                    value="Abba"
                     onChange={handleChange}
                   />
-                  <label htmlFor="mars">Mars</label>
+                  <label htmlFor="mars">  Abba</label>
                 </div>
                 <div className = 'puzzles-games-input'>
                   <input
                     type="checkbox"
-                    id="jupiter"
+                    id="Bon Jovi"
                     name="question3"
-                    value="Jupiter"
+                    value="Bon Jovi"
                     onChange={handleChange}
                   />
-                  <label htmlFor="jupiter">Jupiter</label>
+                  <label htmlFor="Bon Jovi">  Jupiter</label>
                 </div>
               </div>
 
