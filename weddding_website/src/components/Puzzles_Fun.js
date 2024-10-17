@@ -23,7 +23,7 @@ const QuizForm = () => {
       <div className='App'>
         <div className='puzles-games-container'>
         <Navbar/>
-          <div className = 'puzzles-games-main-text-container'>
+          <div className = 'puzzles-games-form-container'>
             <h2 className='primary-heading'>Quiz!</h2>
             <form className='puzzles-games-forms'>
               {/* Question 1 - Short answer */}
@@ -60,7 +60,7 @@ const QuizForm = () => {
                     value="Cold Weather"
                     onChange={handleChange}
                   />
-                  <label htmlFor="html">  Cold Weather</label>
+                  <label htmlFor="Cold Weather">  Cold Weather</label>
                 </div>
                 <div className = 'puzzles-games-input'>
                   <input
@@ -70,7 +70,7 @@ const QuizForm = () => {
                     value="Blankets and warm things"
                     onChange={handleChange}
                   />
-                  <label htmlFor="css">  Blankets and warm things</label>
+                  <label htmlFor="Blankets and warm things">  Blankets and warm things</label>
                 </div>
               </div>
 
@@ -85,7 +85,7 @@ const QuizForm = () => {
                     value="Pitbull"
                     onChange={handleChange}
                   />
-                  <label htmlFor="earth">  Pitbull</label>
+                  <label htmlFor="Pitbull">  Pitbull</label>
                 </div>
                 <div className = 'puzzles-games-input'>
                   <input
@@ -95,7 +95,7 @@ const QuizForm = () => {
                     value="Abba"
                     onChange={handleChange}
                   />
-                  <label htmlFor="mars">  Abba</label>
+                  <label htmlFor="Abba">  Abba</label>
                 </div>
                 <div className = 'puzzles-games-input'>
                   <input
@@ -105,7 +105,7 @@ const QuizForm = () => {
                     value="Bon Jovi"
                     onChange={handleChange}
                   />
-                  <label htmlFor="Bon Jovi">  Jupiter</label>
+                  <label htmlFor="Bon Jovi">  Bon Jovi</label>
                 </div>
               </div>
 
@@ -116,6 +116,16 @@ const QuizForm = () => {
                 </button>
               </div>
             </form>
+          </div>
+          <div className='puzzles-games-photos-container'>
+            <h2 className='primary-heading'>Fun Nonsense</h2>
+            <p className='primary-text'>Enjoy these goofy photos and videos.</p>
+            <video width="400" controls>
+              <source src="/videos/lindsay-baseball.MOV" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <img src="lindsay+john_26.jpg" alt=""></img>
+            <img src="lindsay+john_37.jpg" alt=""></img>
           </div>
         </div>
     </div>
