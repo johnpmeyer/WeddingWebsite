@@ -120,12 +120,16 @@ const QuizForm = () => {
           <div className='puzzles-games-photos-container'>
             <h2 className='primary-heading'>Fun Nonsense</h2>
             <p className='primary-text'>Enjoy these goofy photos and videos.</p>
+            <img src="lindsay+john_26.jpg" alt=""></img>
+            <img src="lindsay+john_37.jpg" alt=""></img>
             <video width="400" controls>
               <source src="/videos/lindsay-baseball.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <img src="lindsay+john_26.jpg" alt=""></img>
-            <img src="lindsay+john_37.jpg" alt=""></img>
+            <video width="400" controls>
+              <source src="/videos/sandal-toe.MOV" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
     </div>
