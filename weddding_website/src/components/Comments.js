@@ -8,7 +8,7 @@ function Comments() {
         <div className='event-details-container'>
             <Navbar/>
             <div className='event-details-main-text-container'>
-                <p className='primary-text'>Coming Some Day</p>
+                <p className='primary-text'>Coming Some Day, Hopefully!</p>
                 <img src={ConstructionImage} alt=""></img>
             </div>
         </div>
