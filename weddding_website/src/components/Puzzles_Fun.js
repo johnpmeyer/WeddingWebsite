@@ -165,10 +165,10 @@ const QuizForm = () => {
                 <button type="submit" className='primary-text'>
                   Submit
                 </button>
+                            {/* Display success or error message */}
+              {message && <p>{message}</p>}
               </div>
             </form>
-            {/* Display success or error message */}
-              {message && <p>{message}</p>}
           </div>
           <div className='puzzles-games-photos-container'>
             <h2 className='primary-heading'>Fun Nonsense</h2>

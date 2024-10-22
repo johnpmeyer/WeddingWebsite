@@ -210,4 +210,13 @@
       width: 100%;
       height: 25em
     }
+
+    .puzzles-games-photos-container img {
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+
+    .puzzles-games-photos-container video {
+      max-width: 400px;
+    }
   }
