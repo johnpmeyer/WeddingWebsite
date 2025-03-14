@@ -32,6 +32,10 @@ function Navbar() {
       link: "/puzzles-fun"
     }, 
     {
+      text: "Registry ;)", 
+      link: "/registry"
+    }, 
+    {
       text: "Comments", 
       link: "/comments"
     }
@@ -49,6 +53,7 @@ function Navbar() {
         <Link to="/event-details">Event Details</Link>
         <Link to="/where-to-stay">Where to Stay / Things to Do</Link>
         <Link to="/puzzles-fun">Puzzles and Fun ;)</Link>
+        <Link to="/registry">Registry</Link>
         <Link to="/comments">Comments</Link>
       </div>
       <div className="navbar-menu-container">
