@@ -5,6 +5,10 @@
     font-family: "Alegreya Sans", sans-serif !important;
   }
 
+  p {
+    font-size: 1.2rem;
+  }
+
   img {
     max-width: 100%;
     height: auto;
@@ -167,6 +171,7 @@
       padding-left: 2.5em;
       max-width: 700px;
       color: black;
+      padding-top: 20px;
   }
 
   ul ul, ol ol { /* Targets nested lists */
@@ -177,6 +182,29 @@
 
 ul ul li, ol ol li { /* Targets nested list items */
   margin-bottom: 0.3rem; /* Slightly smaller spacing for sub-bullets */
+}
+
+.agenda-container {
+  width: 100%; /* Full width of the parent container */
+  max-width: 600px; /* Adjust based on your design */
+  margin: 0 auto; /* Centering the container */
+  font-family: Arial, sans-serif;
+}
+
+.agenda-item {
+  display: flex;
+  align-items: baseline; /* Aligns text properly */
+  gap: 10px; /* Space between time and event */
+  margin-bottom: 8px; /* Space between items */
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  max-width: 700px;
+  color: #D4AC26;
+}
+
+.primary-text-agenda {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  max-width: 700px;
+  color: #D4AC26;
 }
 
   @media (max-width: 1000px) {
@@ -245,6 +273,10 @@ ul ul li, ol ol li { /* Targets nested list items */
         font-size: 1.2rem; /* Adjust this value to be as big as you want */
     }
 
+    .agenda-item {
+      font-size: 1.2rem; /* Adjust this value to be as big as you want */
+  }
+
         /* Make list items bigger */
     ul, ol, li {
           font-size: 1.2rem; /* Adjust as needed */
@@ -257,6 +289,7 @@ ul ul li, ol ol li { /* Targets nested list items */
     
       .supporting-list {
           font-size: 1.2 rem;
+          padding-top: 10px;
       }
 
       

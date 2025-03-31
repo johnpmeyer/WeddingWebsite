@@ -8,7 +8,13 @@ const Registry = () => {
             <Navbar/>
             <div className='registry-main-text-container'>
                 <h1 className='primary-heading'>Registry Info</h1>
-                <h2><br></br>Lindsay Bridal Shower Registry</h2>
+
+                <h2><br></br>Wedding Registry</h2>
+
+                <p><br></br>We love sentimental gifts from friends. Besides that, we'd much prefer cash or a check as a gift. We'll be putting any money towards our honeymoon (in Greece!) and updating our home. Thank you!</p>
+
+                <h2><br></br>Lindsay's Bridal Shower Registry</h2>
+                <p><br></br>Please contact John Meyer (605-553-6615) if you purchase something from this list, and I can remove it. Thank you!</p>
                 <ul className = 'supporting-list'>
                   <li><a href = 'https://www.williams-sonoma.com/registry/kpx6xs8lf8/registry-list.html'>Williams Sonoma</a></li>
                   <li>Perennial plants from your garden!</li>
@@ -21,7 +27,6 @@ const Registry = () => {
                   <li><a href = 'https://squareup.com/gift/A3SMN3EXAG358/order'>Tend and Nourish gift card, Lindsay's favorite facial place!</a></li>
                   <li>Cute butter dish from a local (to you!) ceramicist</li>
                   <li><a href = 'https://www.diptyqueparis.com/en_us/l/home-fragrances/scented-candles.html'>Diptyque Candles</a></li>
-                  <li><a href = 'https://barebonesliving.com/products/hori-hori?variant=39416294441050'>Hori-hori Garden Knife</a></li>
                   <li><a href = 'https://www.marieveronique.com/collections/all'>Products from Marie Veronique</a></li>
                     <ul>
                         <li>Barrier Restore Serum</li>
