@@ -184,6 +184,11 @@ const QuizForm = () => {
               <source src="/videos/sandal-toe.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <video width="400" controls>
+              <source src="/videos/berries.MOV" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <img src="haircut.jpg" alt=""></img>
           </div>
         </div>
     </div>

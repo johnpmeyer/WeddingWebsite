@@ -26,7 +26,7 @@ function Where_to_Stay() {
                   <li><strong>North Side & Mexican War Streets:</strong> Area of town just north of downtown, also close to the venue. Allegheny Commons is a beautiful park here, and there is also a river walk nearby.</li>
                   <li><strong>Strip District:</strong> Also close to the Venue, lots of international grocery stores, restaurants, and bars.</li>
                   <li><strong>Lawrenceville:</strong> Fairly close to the Venue - lots of bars, shops, and restaurants. It has a younger crowd.</li>
-                  <li><strong>Shadyside:</strong> Upscale neightborhood with beautiful homes. Very walkable.</li>
+                  <li><strong>Shadyside:</strong> Upscale neighborhood with beautiful homes. Very walkable.</li>
                   <li><strong>Squirell Hill:</strong> Walkable neighborhood with lots of businesses. Borders two large parks, Frick and Schenley - which are both fantastic.</li>
                   <li><strong>South Side:</strong> South of the Monongahela River, this is known as a "party" area of town on weekend nights. But there's lots of good restaurants and it's very walkable.</li>
                   <li><strong>Mount Washington:</strong> Not as many businesses as the other neighborhoods, but probably more large houses and beautiful views of the city.</li>
@@ -34,14 +34,30 @@ function Where_to_Stay() {
                 <br></br>
                 <p className='primary-text'><br></br>Other Things to Do</p>
                 <ul className = 'supporting-list'>
-                  <li><strong>Parks!</strong> Frick and Schenley Parks are both beautiful, large parks with lots of trails. Point State Park downtown is a pretty place where the rivers converge.</li>
+                  <li><strong>Parks!</strong> Frick and Schenley Parks are both beautiful, large parks with lots of trails. Point State Park downtown is a pretty place where the rivers converge. Allegheny Commons is also a nice park in North Side.</li>
                   <li><strong>Phipps Botanic Garden:</strong> Botanic garden in Schenley Park.</li>
                   <li><strong>Cathedral of Learning:</strong> Iconic 40+ story gothic building on Pitt's campus. There's tours of their themed classrooms ("Nationality Rooms").</li>
                   <li><strong>Maxo Vanka Murals:</strong> Incredible murals inside a Croatian Catholic Church. You have to go on a tour which typically run Saturday mornings.</li>
-                  <li><strong>Museums:</strong> Carnegie Museum of Art and Natural History near Pitt's campus is great. The Andy Warhol Museum and Matress Factory in the North Side are also neat stops.</li>
-                  <li><strong>Inclines:</strong> Old-fashioned trains that run up Mount Washington. They cost about $5 per person, round trip. There are two inclines (Monongahela and Duquesne)</li>
+                  <li><strong>Museums:</strong> Carnegie Museum of Art and Natural History near Pitt's campus is great. The Andy Warhol Museum and Matress Factory in the North Side are also neat stops. Finally, the Children's Museum in North Side is also a good kids' option.</li>
+                  <li><strong>Inclines:</strong> Old-fashioned trains that run up Mount Washington. They cost about $5 per person, round trip. Currently only the Duquesne Incline is running.</li>
+                  <li><strong>Baseball:</strong> The Pirates are in town the week of our wedding!</li>
+                  <li><strong>Allegheny Cemetery:</strong> Beautiful cemetery open to the public.</li>
                 </ul>
                 <br></br>
+                <p className='primary-text'><br></br>Places to Eat</p>
+                <ul className = 'supporting-list-final'>
+                  <li><strong><a href = 'https://aptekapgh.com/'>Apteka</a> - </strong> Renowned Vegan resturant. Only open Friday-Sunday, walk-in only. Fancy-ish.</li>
+                  <li><strong><a href = 'https://spakbrothers.com/'>Spak</a> - </strong> Good pizza and sandwich shop. Take out only, but you can picnic in the nearby cemetery.</li>
+                  <li><strong><a href = 'https://www.altaviapgh.com/market-square'>Alta Via</a> - </strong> Somewhat fancy Italian Restaurant Downtown, they give you complimentary bread.</li>
+                  <li><strong><a href = 'https://www.badamospizza.com/'>Badamos</a> - </strong> Good pizza shop in North Side. Take out only.</li>
+                  <li><strong><a href = 'https://www.arepittas.com/'>Arepittas</a> - </strong> Excellent arepas and empanadas.</li>
+                  <li><strong><a href = 'https://www.themontereypub.com/'>Monterey Pub</a> - </strong> Irish pub in North Side.</li>
+                  <li><strong><a href = 'https://www.brilloboxpgh.com/'>Brillobox</a> - </strong> Bar with decent food. It's near a lot of other bars / restaurants.</li>
+                  <li><strong><a href = 'https://nickysthaikitchen.com/'>Nicky's Thai</a> - </strong> The North Side location has nice patio / garden seating.</li>
+                  <li><strong><a href = 'https://pusadeesgarden.com/info/'>Pusadee's Garden</a> - </strong> Never been here, but it's very fancing. People love it.</li>
+                  <li><strong><a href = 'https://www.allegropgh.com/'>Allegro Bakery</a> - </strong> Vegan bakery with mind-blowing products.</li>
+                  <li><strong><a href = 'https://altiuspgh.com/'>Altius</a> - </strong> Never been here, but I heard the food is good. Insane view!</li>
+                </ul>
             </div>
         </div>
       </div>

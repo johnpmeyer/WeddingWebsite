@@ -32,7 +32,7 @@ function Navbar() {
       link: "/puzzles-fun"
     }, 
     {
-      text: "Registry ;)", 
+      text: "Registry", 
       link: "/registry"
     }, 
     {

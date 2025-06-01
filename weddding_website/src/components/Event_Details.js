@@ -16,8 +16,8 @@ function Event_Details() {
                 <div class="agenda-item"><strong>4:30 PM - 5:45 PM: </strong> <span class="event">Cocktail Hour</span></div>
                 <div class="agenda-item"><strong>6:15 PM - 10:00 PM: </strong> <span class="event">Dinner + Dancing</span></div>
 
-              <p><br></br>The ceremony and reception are all taking place at the same property.</p>
-              <p><br></br>Both events will take place outdoors (with an indoor rainplan), so plan shoes, sunscreen etc. based on being outside.</p>
+              <p><br></br>The ceremony and reception are both taking place at the same property.</p>
+              <p><br></br>The ceremony and cocktail hour will take place outdoors (with an indoor rain plan), so please plan accordingly with your choice of shoes, sunscreen etc.</p>
               <p><br></br>The dinner will be buffet style with snacks available throughout the day.</p>
               <p><br></br>More details to come later in 2025.</p>
               </div>
