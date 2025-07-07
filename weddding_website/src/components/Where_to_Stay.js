@@ -54,7 +54,7 @@ function Where_to_Stay() {
                   <li><strong><a href = 'https://www.themontereypub.com/'>Monterey Pub</a> - </strong> Irish pub in North Side.</li>
                   <li><strong><a href = 'https://www.brilloboxpgh.com/'>Brillobox</a> - </strong> Bar with decent food. It's near a lot of other bars / restaurants.</li>
                   <li><strong><a href = 'https://nickysthaikitchen.com/'>Nicky's Thai</a> - </strong> The North Side location has nice patio / garden seating.</li>
-                  <li><strong><a href = 'https://pusadeesgarden.com/info/'>Pusadee's Garden</a> - </strong> Never been here, but it's very fancing. People love it.</li>
+                  <li><strong><a href = 'https://pusadeesgarden.com/info/'>Pusadee's Garden</a> - </strong> Never been here, but it's very fancy. People love it.</li>
                   <li><strong><a href = 'https://www.allegropgh.com/'>Allegro Bakery</a> - </strong> Vegan bakery with mind-blowing products.</li>
                   <li><strong><a href = 'https://altiuspgh.com/'>Altius</a> - </strong> Never been here, but I heard the food is good. Insane view!</li>
                 </ul>

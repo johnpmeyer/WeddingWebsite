@@ -68,6 +68,10 @@
     margin-right:10em;
   }
 
+  .event-details-container {
+    padding-bottom: 40px;
+  }
+
   .event-details-main-text-container {
     flex: 1;
     display: flex;
@@ -84,7 +88,6 @@
     padding-top: 3em;
   }
 
-  
   .registry-main-text-container {
     flex: 1;
     display: flex;
